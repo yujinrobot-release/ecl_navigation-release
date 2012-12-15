@@ -1,0 +1,12 @@
+Source: ros-groovy-ecl-navigation
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), 
+Homepage: http://www.ros.org/wiki/ecl_navigation
+Standards-Version: 3.9.2
+
+Package: ros-groovy-ecl-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-ecl-navigation-apps,ros-groovy-ecl-mobile-robot,ros-groovy-ecl-core,ros-groovy-ecl-slam,ros-groovy-ecl-maps,ros-groovy-ecl-lite,ros-groovy-ecl-tools
+Description: This stack aims to bring the common tools and algorithms needed to develop navigation algorithms, in particular slam. It does not focus on the end-point solution, rather the tools needed to create a variety of end-point solutions.
