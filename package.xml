@@ -1,6 +1,6 @@
 <package>
   <name>ecl_navigation</name>
-  <version>0.50.1</version>
+  <version>0.50.2</version>
   <description>
     This stack aims to bring the common tools and algorithms needed to
     develop navigation algorithms, in particular slam. It does not focus on
@@ -13,14 +13,6 @@
   <url type="repository">https://github.com/stonier/ecl_navigation</url>
   <url type="bugtracker">https://github.com/stonier/ecl_navigation/issues</url>
   <author email="d.stonier@gmail.com">Daniel Stonier</author>
-
-  <build_depend>ecl_tools</build_depend>
-  <build_depend>ecl_lite</build_depend>
-  <build_depend>ecl_core</build_depend>
-  <build_depend>ecl_maps</build_depend>
-  <build_depend>ecl_navigation_apps</build_depend>
-  <build_depend>ecl_mobile_robot</build_depend>
-  <build_depend>ecl_slam</build_depend>
 
   <run_depend>ecl_tools</run_depend>
   <run_depend>ecl_lite</run_depend>
