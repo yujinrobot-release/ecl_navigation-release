@@ -1,0 +1,12 @@
+Source: ros-groovy-ecl-slam
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-ecl-time,ros-groovy-ecl-license,ros-groovy-ecl-exceptions,ros-groovy-catkin,ros-groovy-ecl-linear-algebra
+Homepage: http://wiki.ros.org/ecl_slam
+Standards-Version: 3.9.2
+
+Package: ros-groovy-ecl-slam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-ecl-license,ros-groovy-ecl-exceptions,ros-groovy-ecl-time,ros-groovy-ecl-linear-algebra
+Description: Slam structures and mechanisms for various algorithms. A level of genericity is the focus here - where elements are common to many slam algorithms, they're pulled into this package library.
