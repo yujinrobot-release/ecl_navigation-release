@@ -1,0 +1,12 @@
+Source: ros-hydro-ecl-mobile-robot
+Section: misc
+Priority: extra
+Maintainer: "Daniel Stonier <d.stonier@gmail.com>"
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-ecl-errors, ros-hydro-ecl-formatters, ros-hydro-ecl-geometry, ros-hydro-ecl-license, ros-hydro-ecl-linear-algebra, ros-hydro-ecl-math
+Homepage: http://wiki.ros.org/ecl_mobile_robot
+Standards-Version: 3.9.2
+
+Package: ros-hydro-ecl-mobile-robot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-ecl-errors, ros-hydro-ecl-formatters, ros-hydro-ecl-geometry, ros-hydro-ecl-license, ros-hydro-ecl-linear-algebra, ros-hydro-ecl-math
+Description: Contains transforms (e.g. differential drive inverse kinematics) for the various types of mobile robot platforms.
