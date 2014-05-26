@@ -1,0 +1,12 @@
+Source: ros-indigo-ecl-navigation
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://www.ros.org/wiki/ecl_navigation
+Standards-Version: 3.9.2
+
+Package: ros-indigo-ecl-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-ecl-mobile-robot
+Description: This stack aims to bring the common tools and algorithms needed to develop navigation algorithms, in particular slam. It does not focus on the end-point solution, rather the tools needed to create a variety of end-point solutions.
