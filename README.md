@@ -1,3 +1,26 @@
+## ecl_navigation (jade) - 0.60.0-0
+
+The packages in the `ecl_navigation` repository were released into the `jade` distro by running `/usr/bin/bloom-release ecl_navigation --track jade --rosdistro jade --new-track` on `Tue, 20 Oct 2015 02:04:40 -0000`
+
+These packages were released:
+- `ecl_mobile_robot`
+- `ecl_navigation`
+
+Version of package(s) in repository `ecl_navigation`:
+- upstream repository: https://github.com/stonier/ecl_navigation.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.60.0-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.3`
+- rosdep version: `0.10.28`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.35`
+
+
 ## ecl_navigation (indigo) - 0.60.0-1
 
 The packages in the `ecl_navigation` repository were released into the `indigo` distro by running `/usr/bin/bloom-release ecl_navigation -t indigo -r indigo` on `Mon, 26 May 2014 05:17:30 -0000`
