@@ -1,0 +1,12 @@
+Source: ros-jade-ecl-mobile-robot
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-ecl-errors, ros-jade-ecl-formatters, ros-jade-ecl-geometry, ros-jade-ecl-license, ros-jade-ecl-linear-algebra, ros-jade-ecl-math
+Homepage: http://wiki.ros.org/ecl_mobile_robot
+Standards-Version: 3.9.2
+
+Package: ros-jade-ecl-mobile-robot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-ecl-errors, ros-jade-ecl-formatters, ros-jade-ecl-geometry, ros-jade-ecl-license, ros-jade-ecl-linear-algebra, ros-jade-ecl-math
+Description: Contains transforms (e.g. differential drive inverse kinematics) for the various types of mobile robot platforms.
