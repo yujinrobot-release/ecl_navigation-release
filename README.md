@@ -1,3 +1,26 @@
+## ecl_navigation (indigo) - 0.60.1-1
+
+The packages in the `ecl_navigation` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --rosdistro indigo ecl_navigation` on `Wed, 06 Jan 2016 06:45:58 -0000`
+
+These packages were released:
+- `ecl_mobile_robot`
+- `ecl_navigation`
+
+Version of package(s) in repository `ecl_navigation`:
+- upstream repository: https://github.com/stonier/ecl_navigation.git
+- release repository: https://github.com/yujinrobot-release/ecl_navigation-release.git
+- rosdistro version: `0.60.0-1`
+- old version: `0.60.1-0`
+- new version: `0.60.1-1`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.10.30`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.35`
+
+
 ## ecl_navigation (indigo) - 0.60.1-0
 
 The packages in the `ecl_navigation` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --rosdistro indigo ecl_navigation` on `Tue, 24 Nov 2015 08:37:50 -0000`
