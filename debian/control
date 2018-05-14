@@ -1,0 +1,13 @@
+Source: ros-melodic-ecl-mobile-robot
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-ecl-build, ros-melodic-ecl-errors, ros-melodic-ecl-formatters, ros-melodic-ecl-geometry, ros-melodic-ecl-license, ros-melodic-ecl-linear-algebra, ros-melodic-ecl-math
+Homepage: http://wiki.ros.org/ecl_mobile_robot
+Standards-Version: 3.9.2
+
+Package: ros-melodic-ecl-mobile-robot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-ecl-build, ros-melodic-ecl-errors, ros-melodic-ecl-formatters, ros-melodic-ecl-geometry, ros-melodic-ecl-license, ros-melodic-ecl-linear-algebra, ros-melodic-ecl-math
+Description: Contains transforms (e.g.
+ differential drive inverse kinematics) for the various types of mobile robot platforms.
