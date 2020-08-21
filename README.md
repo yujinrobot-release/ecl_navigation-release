@@ -1,3 +1,28 @@
+## ecl_navigation (noetic) - 0.60.3-1
+
+The packages in the `ecl_navigation` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --track noetic --rosdistro noetic ecl_navigation` on `Fri, 21 Aug 2020 04:12:34 -0000`
+
+These packages were released:
+- `ecl_mobile_robot`
+- `ecl_navigation`
+
+Version of package(s) in repository `ecl_navigation`:
+
+- upstream repository: https://github.com/stonier/ecl_navigation.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.60.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.22`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## ecl_navigation (melodic) - 0.60.3-0
 
 The packages in the `ecl_navigation` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --track melodic --rosdistro melodic ecl_navigation` on `Mon, 14 May 2018 04:33:51 -0000`
